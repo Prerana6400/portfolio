@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    
+    <!--NAVBAR-->
+    <nav> 
+      <div class="left">
+        <a href="/"> <h1>PORTFOLIO</h1></a>
+      </div>
+      <div class="right">
+        <a href="https://github.com/Prerana6400" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+        <a href="https://www.linkedin.com/in/prerana-yesugade-b00b9b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+        <a href="mailto:preranayesugade06@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+
+        </a>
+      </div>
+    </nav>
+    <main>
+      
+      <!--section 1 INTRO-->
+      <section  class="intro"> 
+        <div class="text">
+          <h2>HI, I'M PRERANA YESUGADE</h2>
+          <p>I'm a second-year computer engineering student with a passion for problem-solving and building engaging web applications. Proficient in C++ and Python, I've developed a strong foundation in programming, along with front-end skills in HTML, CSS, and JavaScript. My involvement in clubs at Pimpri Chinchwad College of Engineering has strengthened my teamwork and communication abilities. I’m eager to continue exploring technology and contributing to impactful projects.</p>
+          <div class="links">
+            
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>SKILLS </span>
+            </a>
+
+            <a href="#projects">
+              <i class="fa-solid fa-paperclip"></i>
+              <span>PROJECTS </span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-phone"></i>
+              <span>CONTACT </span>
+            </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="profile4.jpeg" alt="profile pic">
+
+        </div>
+      </section>
+       <!--section 2 SKILLS-->
+       <section id="skills" class="skills-section"> 
+        <h2>SKILLS</h2> 
+        <div>From a curiosity about how websites come to life, my journey has evolved into a true passion for web development. I’m committed to refining my skills in HTML, CSS, JavaScript, React, and Node.js, alongside programming languages like C++ and Python. With each project, I focus on building dynamic, user-friendly websites and solving real-world problems through code.
+        </div>
+        <div class="cells">
+            <div class="cell">
+              <img src="htmllogo.png" alt="html logo">
+              <span  >HTML</span>
+            </div>
+
+            <div class="cell">
+              <img src="csslogo.PNG" alt="css logo">
+              <span >CSS</span>
+            </div>
+
+            <div class="cell">
+              <img src="jslogo.PNG" alt="js logo">
+              <span >JAVASCRIPT</span>
+            </div>
+
+            <div class="cell">
+              <img src="cpplogo.png" alt="cpp logo">
+              <span >C++</span>
+            </div>
+
+            <div class="cell">
+              <img src="pythonlogo.png" alt="python logo">
+              <span >PYTHON</span>
+            </div>
+
+        </div>
+       </section>
+
+       <section id="projects">
+        <div class="project-content">
+         
+          <div class="project-description">
+            <h2>PROJECTS</h2>
+            <div class="text-slide active">
+              <h3>Project 1: Spotify Clone</h3>
+              <p>A responsive front-end web application inspired by Spotify, built using HTML and CSS. Experience a seamless music browsing interface that captures the essence of your favorite music streaming platform.</p>
+            </div>
+            <div class="text-slide">
+              <h3>Project 2: Scan Click Clean</h3>
+              <p>An interactive website that collects user data through a user-friendly form. Designed with HTML and CSS, this site focuses on simplicity and efficiency for effective data collection.</p>
+            </div>
+            <div class="text-slide">
+              <h3>Project 3: Text-to-Speech Converter</h3>
+              <p>A Python application that converts written text into spoken words, offering an easy way to listen to your text content. Ideal for enhancing accessibility and convenience in everyday tasks.</p>
+            </div>
+          </div>
+          <div class="project-slider">
+            <div class="slide"><img src="PROJECT1.jpeg" alt="Project 1"></div>
+            <div class="slide"><img src="PROJECT2.PNG" alt="Project 2"></div>
+            <div class="slide"><img src="PROJECT3.jpg" alt="Project 3"></div>
+          </div>
+        </div>
+      </section>
+      
+      <!--section 1 CONTACT-->
+      
+    <section id="contact" class="contact-section">
+    <h2>CONTACT ME</h2>
+      
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="send-btn">Send</button>
+    </form>
+</section>
+
+        
+     
+    </main>
+
+
+
+
+    
+  </body>
+</html>
